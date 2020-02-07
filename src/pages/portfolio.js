@@ -4,7 +4,7 @@ import personalProjects from "../constants/personalProjects"
 import style from "../css/portfolio.module.scss"
 import ProjectTemplate from "../components/templates/projectTemplate"
 
-export default () => {
+export default () => {  
   return (
     <Layout>
       <div className={style.portfolio}>

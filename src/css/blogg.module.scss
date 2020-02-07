@@ -4,17 +4,48 @@
   flex: 1;
   
   .container{
+
     h1{
       color: $primaryColor;
       font-size: 3.6rem;
       border-bottom: solid black 1px;
-      margin-bottom: 2rem;
+      
     }
+  }
+  
+
+  .blogContainer{
+   
+
+    .blogPost{
+      h2{
+        padding-top: 1.6rem;
+        margin-bottom: 6px
+      }
+     
+      a {
+        text-decoration: none;
+        color: $primaryColor;
+        font-size: 1.2rem;
+        
+      }
+  
+      h3{
+        font-size: 1rem;
+        color: $textColor;
+        margin-bottom: 8px;
+      }
+  
+      p{
+        color: #555;
+        border-bottom: 2px solid #aaa;
+        padding-bottom: 8px;
+      }
+  }
   }
 }
 
 @media screen and (max-width: 535px){
-
   .blogg{
     padding: 1rem;
   }

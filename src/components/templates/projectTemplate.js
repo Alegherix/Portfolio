@@ -1,6 +1,5 @@
 import React from 'react'
 import styled from "../../css/projectTemplate.module.scss"
-import Image from "gatsby-image"
 import FluidImage from "./fluidImage"
 
 
