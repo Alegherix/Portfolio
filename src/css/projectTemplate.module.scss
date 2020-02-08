@@ -56,6 +56,37 @@ article{
     border-radius: 5px;
     
   }
+}
 
-  
+@media screen and (min-width: 535px){
+  article{
+    .descContainer{
+      h2{
+        font-size: 3rem;
+      }
+      p{
+        font-size: 1.8rem;
+      }
+
+      a{
+        font-size: 1.4rem;
+      }
+    }
+
+  }
+}
+@media screen and (min-width: 1024px){
+  article{
+    .descContainer{
+      p{
+        font-size: 2.3rem;
+      }
+
+      a{
+        font-size: 1.8rem;
+        height: 60px;
+      }
+    }
+
+  }
 }

@@ -63,3 +63,29 @@
   }
   
 }
+
+@media screen and (min-width:1024px){
+
+  .container{
+
+    .hero{
+      h1{
+        // font-size: 10vw;
+        font-size: 7rem;
+      }
+    }
+    section{
+      h2{
+        font-size: 5rem;
+      }
+  
+      p{
+        font-size: 2.9rem;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 1200px){
+  
+}

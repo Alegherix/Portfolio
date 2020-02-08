@@ -2,6 +2,7 @@
 
 .portfolio {
   flex: 1;
+  padding: 1.5rem;
   
   .container{
     h1{
@@ -13,18 +14,13 @@
   }
 }
 
-@media screen and (max-width: 535px){
-
-  .portfolio{
-    padding: 1rem;
-  }
-}
-
-
 @media screen and(min-width: 1024px){
-
   .portfolio{
-    padding: 6rem 0 4rem;
-    // margin: 0 auto;
+    .container{
+      h1{
+        font-size: 5rem;
+      }
+    }
   }
+  
 }
