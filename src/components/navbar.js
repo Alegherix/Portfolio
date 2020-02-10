@@ -1,12 +1,27 @@
 import React from 'react'
 import style from "../css/navbar.module.scss"
-import {Link} from "gatsby"
+import { Link, useStaticQuery } from "gatsby"
 import mediaIcons from "../constants/media"
+import Image from "gatsby-image"
 
 export default () => {
+
+  const imgData = useStaticQuery(graphql`
+    query{
+      img:file(relativePath:{eq:"jagRund.jpg"}){
+        childImageSharp{
+          fixed(quality: 100, height:225, width: 225){
+            ...GatsbyImageSharpFixed
+          }
+        }
+      }
+    }
+  `)
+
   return (
     <div className={style.navbar}>
       <div className={style.info}>
+        <Image fixed={imgData.img.childImageSharp.fixed} />
         <h2>Martin Hansson</h2>
         <h3><span>Webbutvecklare,</span><span>Hobbyfotograf,</span>Träningsfantast</h3>
       </div>
