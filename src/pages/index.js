@@ -2,12 +2,14 @@ import React from 'react'
 import Layout from "../components/layout"
 import styles from "../css/index.module.scss"
 import Icon from "../assets/jagSvg2.svg"
+import SEO from "../components/seo"
 
 
 function index() {
   
   return(
     <Layout>
+      <SEO title={"Hem"} />
       <div className={styles.container}>
         <div className={styles.hero}>
           <h1>Martin Hansson</h1>

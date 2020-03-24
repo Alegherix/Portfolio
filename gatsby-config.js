@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Martin Hanssons Portfolio`,
+    title: `Martin Hansson`,
     description: `Portfolio för Martin Hansson för att demonstrera kunskaper inom Webbutveckling & Design`,
     author: `Martin Hansson`,
   },
@@ -35,10 +35,15 @@ module.exports = {
     {
       resolve: "gatsby-plugin-manifest",
       options: {
-        name: "Martin Hanssons Portfolio",
+        name: "Martin Hansson",
         short_name: "portfolio",
         start_url: "/",
-        icon: "src/images/icon.png"
+        background_color: "#6b37bf",
+        theme_color: "#6b37bf",
+        display: "standalone",
+        icon: "src/images/icon.png",
+        crossOrigin: `use-credentials`,
+        
       },
     },
   

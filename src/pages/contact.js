@@ -2,6 +2,7 @@ import React from 'react'
 import Layout from "../components/layout"
 import styled from "../css/contact.module.scss"
 import {useForm} from "react-hook-form"
+import SEO from "../components/seo"
 
 
 export default () => {
@@ -13,6 +14,7 @@ export default () => {
 
   return (
     <Layout>
+      <SEO title={"Kontakt"} />
       <section>
         <div className={styled.container}>
           <h1>Kontakta mig</h1>
