@@ -38,8 +38,6 @@ module.exports = {
         name: "Martin Hansson",
         short_name: "portfolio",
         start_url: "/",
-        background_color: "#6b37bf",
-        theme_color: "#6b37bf",
         display: "standalone",
         icon: "src/images/icon.png",
         crossOrigin: `use-credentials`,
