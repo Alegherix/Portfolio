@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    title: `Martin Hanssons Portfolio`,
+    description: `Portfolio för Martin Hansson för att demonstrera kunskaper inom Webbutveckling & Design`,
+    author: `Martin Hansson`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`, // Meta Taggar
@@ -31,7 +31,16 @@ module.exports = {
           include: /assets/ // See below to configure properly
         }
       }
-    }
+    },
+    {
+      resolve: "gatsby-plugin-manifest",
+      options: {
+        name: "Martin Hanssons Portfolio",
+        short_name: "portfolio",
+        start_url: "/",
+        icon: "src/images/icon.png"
+      },
+    },
   
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
