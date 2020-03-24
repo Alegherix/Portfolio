@@ -5,7 +5,7 @@ import { FaGithub, FaYoutube, FaInstagram } from "react-icons/fa"
 export default[
   {
     "icon": <FaGithub />,
-    "url": "https://github.com/alegherix",
+    "url": "https://github.com/alegherix2",
     "name": "github",
     "desc": "Link to my github profile"
   },

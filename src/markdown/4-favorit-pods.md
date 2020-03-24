@@ -1,6 +1,6 @@
 ---
 author:  Martin Hansson
-title: Mina 5 favorit podcasts
+title: Mina 4 favorit podcasts
 date: 6/2-2020
 ---
 
@@ -15,10 +15,13 @@ Dem varvar sina avsnitt där dem går igenom vissa teknologier mer ingående så
 En Podcast som är perfekt att lyssna på för att plocka upp tips, eller hitta resurser att läsa vidare om.
 
 
-<!-- <a href="http://www.kodsnack.se"><h2>KodSnack.se</h2></a> -->
 ## Kodsnack.se
 Kodsnack består av Fredrik, Tobias och Kristoffer och är även den enda svenska Podcasten jag lyssnar på. (Om någon kan rekommendera en annan svensk utvecklar podcast så gör gärna det.) Denna podcasten är lite mer lättsmält där dem brukar gå igenom vad som hänt i deras liv i veckan, vilka utmaningar dem löst etc. Även här bjuder man emellanåt in gäster till programmet för att gå in djupare på visa ämnesområden, vilket kan vara oerhört intressant. Ett avsnitt som jag fastnade för var när det bjöd in en gäst att prat om att utveckla programvara för flygplan, vilket kan lyssnas på här: <a href="https://kodsnack.se/313/" target="_blank">Kodsnack</a>
 
 
 ## TalkPython.fm
 Talk python to me är en podcast som görs utav Michael Kennedy. Detta är en podcast som i princip enbart går igenom användningen utav programspråket Python inom områden som sträcker sig ifrån Webbutveckling till Machine Learning och Spel skapande. Med andra ord så är detta tillskillnad ifrån de andra poddarna väldigt nischad på just Python. Däremot är Python ett oerhört trevligt scripting språk att sätta sig in i, och garanterat ett språk som alla utvecklare någon gång bör bekanta sig med, för skojs skull om inte annat.  
+
+
+## JavaPubHouse.com
+Java Pub House är en Podcast med inriktning på Java. De släpper sällan fler än 1 avsnitt per månad, men avsnitten dem väl släpper är oftast värda att lyssna på. Freddy och Bob blandar sina avsnitt med gäster som blir inbjudna att pratar om olika ramverk, eller andra intressanta Java projekt, såsom Project Lombok, och emellanåt så går dem även själva igenom vad som händer i Java världen för tillfället. 

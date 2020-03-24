@@ -7,26 +7,11 @@ export default [
     "url": "https://github.com/psychoslaz/YoutubeTraderaSniper"
   },
   {
-    "src": "2-hauntedHouse.jpg",
-    "name": "Hemsökta hus",
-    "desc": "En hemsida för att boka tourguider med resa, boende och mat till några av Sveriges mest hemsökta hus.",
-    "btnText" : "Besök",
-    "url": "http://www.hauntedtours.se"
-  },
- 
-  {
-    "src": "cake2.jpg",
-    "name": "Café Regnbågen",
-    "desc": "En hemsida för Café Regnbågen.",
-    "btnText" : "Besök",
-    "url": "http://caferegnbågen.se",
-  },
-   {
-    "src":"5-hotel.jpg",
-    "name": "Hotell Varda",
-    "desc": "En hemsida för Hotell Varda, där folk enkelt kan få en översikt över hotellet, och även se till att komma i kontakt, för att reservera en bokning.",
-    "btnText" : "Besök",
-    "url": "http://hotellvarda.se",
+    "src": "edgeLedger.png",
+    "name": "EdgeLedger Consulting",
+    "desc": "En hemsida för EdgeLedger Consulting. Ett testprojekt för ett nystart konsult företag med inriktning på private banking ",
+    "btnText": "Besök",
+    "url": "http://edge-ledger.surge.sh"
   },
   {
     "src": "2-firstSite.png",
@@ -35,4 +20,27 @@ export default [
     "btnText": "Besök",
     "url": "https://psychoslaz.github.io/portfolio/"
   },
+  // {
+  //   "src": "2-hauntedHouse.jpg",
+  //   "name": "Hemsökta hus",
+  //   "desc": "En hemsida för att boka tourguider med resa, boende och mat till några av Sveriges mest hemsökta hus.",
+  //   "btnText" : "Besök",
+  //   "url": "http://www.hauntedtours.se"
+  // },
+ 
+  // {
+  //   "src": "cake2.jpg",
+  //   "name": "Café Regnbågen",
+  //   "desc": "En hemsida för Café Regnbågen.",
+  //   "btnText" : "Besök",
+  //   "url": "http://caferegnbågen.se",
+  // },
+  //  {
+  //   "src":"5-hotel.jpg",
+  //   "name": "Hotell Varda",
+  //   "desc": "En hemsida för Hotell Varda, där folk enkelt kan få en översikt över hotellet, och även se till att komma i kontakt, för att reservera en bokning.",
+  //   "btnText" : "Besök",
+  //   "url": "http://hotellvarda.se",
+  // },/home/psychoslaz/Development/Gatsby/MinBloggResponsive/src/images/jagRund.jpg
+
 ]
