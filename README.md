@@ -1,6 +1,7 @@
----
+# Old Portfolio
 
----
+Min gamla portfolio skriven med:
 
-## My portfolio
-En design för min portfolio
+- Gatsby
+- GraphQL
+- Scss
